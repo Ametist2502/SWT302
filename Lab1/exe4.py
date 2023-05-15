@@ -11,4 +11,5 @@ def funct(x,y):
 x = float(input("Enter x: "))
 y = float(input("Enter y: "))
 
+print("abfajhdgfjhdsf")
 print(funct(x,y))
