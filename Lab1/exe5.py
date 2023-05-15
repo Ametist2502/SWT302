@@ -18,5 +18,5 @@ extraprice = float(input("Enter extraprice: "))
 extras = int(input("Enter extras: "))
 discount = float(input("Enter discount: "))
 
-print("agdfgadjhgfdjagf")
+
 print(calculate_price_Tdque(baseprice, specialprice, extraprice, extras, discount))
