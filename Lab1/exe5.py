@@ -7,6 +7,7 @@ def calculate_price_Tdque(baseprice, specialprice, extraprice, extras, discount)
           addon_discount = 15
      else:
           addon_discount = 13
+          
      if discount > addon_discount:
           addon_discount = discount
      result = baseprice/100.0*(100-discount) + specialprice + extraprice/100.0*(100-addon_discount)

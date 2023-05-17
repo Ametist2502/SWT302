@@ -6,7 +6,7 @@ def func2(x,y):
      else:
           return x-y
 
-x = int(input("Enter x: "))
-y = int(input("Enter y: "))
+x = float(input("Enter x: "))
+y = float(input("Enter y: "))
      
 print(func2(x,y))

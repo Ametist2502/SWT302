@@ -28,8 +28,6 @@ def calculate_price(color, bill):
 color = input("Enter color: ")
 bill = float(input("Enter bill: "))
 
-
-print("FDS")
 print(calculate_price(color, bill))
           
           
